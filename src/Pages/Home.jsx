@@ -77,6 +77,39 @@ const Home = () => {
             </section>
             {/** Featured tour section end*/}
 
+            {/** Experience tour section start*/}
+            <section>
+                <Container>
+                    <Row>
+                        <Col lg='6'>
+                            <div className="experince__content">
+                                <Subtitle Subtitle={'Experience'} />
+
+                                <h2>With our all experience <br /> we will serve you</h2>
+                                <p>Lorem ipsum dolor sit, amet adipisicing.<br />
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                            </div>
+                            <div className="counter__wrapper d-flex align-items-center gap-5">
+                                <div className="counter__box">
+                                    <span>12k+</span>
+                                    <h6>Successful Trip</h6>
+                                </div>
+                            </div>
+
+                        </Col>
+
+
+
+                        <Col lg='6'></Col>
+
+                    </Row>
+                </Container>
+            </section>
+
+            {/** Experience tour section end*/}
+
+
+
         </>
     );
 }
